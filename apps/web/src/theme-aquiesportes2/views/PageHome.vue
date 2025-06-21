@@ -802,7 +802,7 @@ const getCarouselPosts = (): any[] => {
     } else if (coverSettings.value.layoutType === 'carousel' && Array.isArray(coverPosts.value.carousel)) {
         return coverPosts.value.carousel;
     } else if (coverSettings.value.layoutType === 'split') {
-        const posts = [];
+        const posts: any[] = [];
         if (coverPosts.value.splitMain) posts.push(coverPosts.value.splitMain);
         if (Array.isArray(coverPosts.value.splitSide)) {
             posts.push(...coverPosts.value.splitSide);
@@ -935,6 +935,7 @@ watch(() => posts.value.length, async () => {
 .line-clamp-2 {
     display: -webkit-box;
     -webkit-line-clamp: 2;
+    line-clamp: 2;    
     -webkit-box-orient: vertical;
     overflow: hidden;
 }

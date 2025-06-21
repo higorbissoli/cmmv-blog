@@ -68,7 +68,10 @@
                                     </div>
 
                                     <!-- Post Header -->
-                                    <header class="post-header my-6">
+                                    <header class="post-header my-8">
+                                        <p v-if="post.featureImageAlt" class="text-neutral-600 text-sm mb-3 italic">
+                                             {{ post.featureImageAlt }}
+                                        </p>
                                         <div class="post-meta flex items-center justify-between">
                                             <div class="flex items-center text-neutral-600 text-sm">
                                                 <svg xmlns="http://www.w3.org/2000/svg" class="w-4 h-4 mr-1.5 flex-shrink-0" fill="none" viewBox="0 0 24 24"
@@ -136,18 +139,6 @@
                                                     </svg>
                                                 </a>
 
-                                                <!-- Instagram -->
-                                                <a class="bg-gradient-to-tr from-[#fd5949] via-[#d6249f] to-[#285AEB] w-8 h-8 rounded-full flex items-center justify-center text-white transition-colors"
-                                                    rel="nofollow noopener"
-                                                    :href="`https://www.instagram.com/`"
-                                                    onclick="window.open(this.href); return false;"
-                                                    title="Compartilhar no Instagram">
-                                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24"
-                                                        fill="currentColor">
-                                                        <path
-                                                            d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zM12 0C8.741 0 8.333.014 7.053.072 2.695.272.273 2.69.073 7.052.014 8.333 0 8.741 0 12c0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98C8.333 23.986 8.741 24 12 24c3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98C15.668.014 15.259 0 12 0zm0 5.838a6.162 6.162 0 100 12.324 6.162 6.162 0 000-12.324zM12 16a4 4 0 110-8 4 4 0 010 8zm6.406-11.845a1.44 1.44 0 100 2.881 1.44 1.44 0 000-2.881z" />
-                                                    </svg>
-                                                </a>
 
                                                 <!-- Copy link button -->
                                                 <button @click="copyPageUrl"
@@ -169,7 +160,7 @@
                                     </header>
 
                                     <!-- Post Content -->
-                                    <div class="post-content text-neutral-800 prose prose-sm sm:prose prose-neutral max-w-none overflow-hidden">
+                                    <div class="post-content mt-8 text-neutral-800 prose prose-sm sm:prose prose-neutral max-w-none overflow-hidden">
                                         <div v-html="processPostContent(post.content)"></div>
                                     </div>
 
@@ -454,26 +445,7 @@
                                     </div>
                                 </div>
 
-                                <!-- Categories Widget -->
-                                <div v-if="categories && categories.length > 0" class="bg-white rounded-lg shadow-md p-5 mb-6">
-                                    <h2 class="text-xl font-bold mb-4 pb-2 text-[#001E62] border-b-2 border-[#ffcc00]">
-                                        Categorias
-                                    </h2>
 
-                                    <ul class="space-y-2">
-                                        <li v-for="category in categories" :key="category.id" class="border-b border-gray-100 last:border-0 pb-2 last:pb-0">
-                                            <a
-                                                :href="`/category/${category.slug}`"
-                                                class="flex justify-between items-center text-gray-700 hover:text-[#001E62] transition-colors"
-                                            >
-                                                {{ category.name }}
-                                                <span class="bg-[#001E62] text-white px-2 py-1 rounded-full text-xs font-medium">
-                                                    {{ category.postCount }}
-                                                </span>
-                                            </a>
-                                        </li>
-                                    </ul>
-                                </div>
 
                                 <!-- AdSense Rectangle (Bottom) -->
                                 <div v-if="adSettings.enableAds && adSettings.articlePageSidebarBottom" class="bg-gray-100 rounded-lg p-2 mb-6 flex justify-center h-[400px]">
@@ -1373,6 +1345,7 @@ const sidebarLeftAdContainer = ref(null);
 .line-clamp-2 {
     display: -webkit-box;
     -webkit-line-clamp: 2;
+    line-clamp: 2;
     -webkit-box-orient: vertical;
     overflow: hidden;
 }
