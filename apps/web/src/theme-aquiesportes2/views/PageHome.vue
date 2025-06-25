@@ -340,7 +340,7 @@
                                 </div>
                             </div>
 
-                            <div v-if="filteredMoreContentPosts.length > 0">
+                            <div v-if="filteredMoreContentPosts.length > 0" class="mt-12">
                                 <h2 class="text-xl font-bold mb-6 pb-2 text-[#001E62] border-b-2 border-[#ffcc00]">
                                     Mais Conteúdo
                                 </h2>

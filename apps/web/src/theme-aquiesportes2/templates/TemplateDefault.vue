@@ -217,6 +217,8 @@
                         </p>
                         <ul class="space-y-2 mb-4">
                             <li><a href="/" class="text-gray-300 hover:text-[#ffcc00]">Home</a></li>
+                            <li><a href="/contact" class="text-gray-300 hover:text-[#ffcc00]">Contato</a></li>
+                            <li><a href="/about" class="text-gray-300 hover:text-[#ffcc00]">Sobre nós</a></li>
                             <li><a href="/terms-of-service" class="text-gray-300 hover:text-[#ffcc00]">Termos de Uso</a></li>
                             <li><a href="/terms-of-privacy" class="text-gray-300 hover:text-[#ffcc00]">Política de Privacidade</a></li>
                         </ul>

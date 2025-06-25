@@ -18,6 +18,8 @@ export function createRouter() {
                     { path: '/post/:slug', component: () => import('./views/PagePost.vue') },
                     { path: '/tag/:slug', component: () => import('./views/PageTag.vue') },
                     { path: '/author/:slug', component: () => import('./views/PageAuthor.vue') },
+                    { path: '/contact', component: () => import('./views/Contact.vue') },
+                    { path: '/about', component: () => import('./views/About.vue') },
                     { path: '/terms-of-service', component: () => import('./views/TermsOfService.vue') },
                     { path: '/terms-of-privacy', component: () => import('./views/TermsOfPrivacy.vue') }
                 ]
