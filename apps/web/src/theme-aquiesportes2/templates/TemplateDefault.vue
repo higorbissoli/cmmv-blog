@@ -212,8 +212,8 @@
                             <span class="absolute bottom-0 left-0 w-10 h-1 bg-[#001E62]"></span>
                         </h3>
                         <p class="text-gray-300 text-sm mb-4">
-                            Portal especializado em notícias e conteúdo sobre esportes.
-                            Trazendo as informações mais atualizadas do mundo esportivo.
+                            Portal de notícias esportivas especializado em futebol, basquete, vôlei e esportes olímpicos. 
+                            Notícias, resultados, transferências e análises esportivas em tempo real do Brasil e do mundo.
                         </p>
                         <ul class="space-y-2 mb-4">
                             <li><a href="/" class="text-gray-300 hover:text-[#ffcc00]">Home</a></li>
