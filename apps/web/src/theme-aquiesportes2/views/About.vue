@@ -2,22 +2,22 @@
     <div class="w-full relative">
         <div class="lg:max-w-4xl md:max-w-3xl px-4 sm:px-6 mx-auto">
             <div class="bg-white rounded-lg px-4 sm:px-6 py-8">
-                <h1 class="text-3xl font-bold mb-6 text-neutral-900">Sobre nós</h1>
-                <a id="about" title="Sobre nós"></a>
-                <p class="mb-6 text-neutral-700 text-justify">Conheça mais sobre o <strong>Aqui Esportes</strong>, nossa missão e a equipe que trabalha diariamente para trazer as melhores notícias e conteúdos sobre o universo esportivo.</p>
+                <h1 class="text-3xl font-bold mb-6 text-neutral-900">Sobre o Aqui Esportes - Portal de Notícias Esportivas</h1>
+                <a id="about" title="Sobre o Aqui Esportes - Portal de Esportes"></a>
+                <p class="mb-6 text-neutral-700 text-justify">Conheça mais sobre o <strong>Aqui Esportes</strong>, o portal de esportes que se tornou referência em notícias esportivas no Brasil. Nossa missão é oferecer cobertura completa do mundo dos esportes e a equipe que trabalha diariamente para trazer as melhores notícias, análises e conteúdos sobre o universo esportivo brasileiro e internacional.</p>
 
-                <h2 class="text-2xl font-semibold mt-8 mb-4 text-neutral-800">Nossa História</h2>
-                <a id="our-history" title="Nossa História"></a>
-                <p class="mb-4 text-neutral-700 text-justify">O <strong>Aqui Esportes</strong> nasceu da paixão por esportes e da necessidade de criar um portal que oferecesse conteúdo de qualidade, atualizado e acessível para todos os amantes do esporte brasileiro e internacional.</p>
-                <p class="mb-6 text-neutral-700 text-justify">Desde nossa fundação, temos o compromisso de manter nossos leitores informados sobre as principais novidades do mundo esportivo, sempre com credibilidade, imparcialidade e paixão pelo que fazemos.</p>
+                <h2 class="text-2xl font-semibold mt-8 mb-4 text-neutral-800">Nossa História no Mundo dos Esportes</h2>
+                <a id="our-history" title="História do Portal Aqui Esportes"></a>
+                <p class="mb-4 text-neutral-700 text-justify">O <strong>Aqui Esportes</strong> nasceu da paixão genuína por esportes e da necessidade de criar um portal especializado que oferecesse conteúdo esportivo de qualidade, atualizado e acessível para todos os amantes do esporte brasileiro e internacional. Nosso portal de esportes se dedica exclusivamente a cobrir as modalidades esportivas mais populares do Brasil.</p>
+                <p class="mb-6 text-neutral-700 text-justify">Desde nossa fundação como portal de notícias esportivas, temos o compromisso de manter nossos leitores informados sobre as principais novidades do mundo esportivo, resultados de campeonatos, análises especializadas e cobertura completa dos esportes, sempre com credibilidade, imparcialidade e paixão pelo que fazemos no universo dos esportes.</p>
 
-                <h2 class="text-2xl font-semibold mt-8 mb-4 text-neutral-800">Nossa Missão</h2>
-                <a id="mission" title="Nossa Missão"></a>
-                <p class="mb-6 text-neutral-700 text-justify">Nossa missão é ser a principal fonte de informação esportiva no Brasil, oferecendo conteúdo de qualidade, análises aprofundadas e cobertura completa dos principais eventos esportivos nacionais e internacionais, sempre com transparência e respeito aos nossos leitores.</p>
+                <h2 class="text-2xl font-semibold mt-8 mb-4 text-neutral-800">Nossa Missão no Portal de Esportes</h2>
+                <a id="mission" title="Missão do Aqui Esportes"></a>
+                <p class="mb-6 text-neutral-700 text-justify">Nossa missão é ser a principal fonte de informação esportiva no Brasil, oferecendo conteúdo esportivo de qualidade, análises aprofundadas de esportes, cobertura completa dos principais eventos esportivos nacionais e internacionais, resultados em tempo real e notícias esportivas atualizadas, sempre com transparência e respeito aos nossos leitores apaixonados por esportes.</p>
 
-                <h2 class="text-2xl font-semibold mt-8 mb-4 text-neutral-800">Nossa Visão</h2>
-                <a id="vision" title="Nossa Visão"></a>
-                <p class="mb-6 text-neutral-700 text-justify">Ser reconhecido como um portal de esportes confiável e abrangente, contribuindo para o desenvolvimento da cultura esportiva brasileira e conectando fãs de esportes de todas as modalidades.</p>
+                <h2 class="text-2xl font-semibold mt-8 mb-4 text-neutral-800">Nossa Visão Como Portal de Esportes</h2>
+                <a id="vision" title="Visão do Portal Aqui Esportes"></a>
+                <p class="mb-6 text-neutral-700 text-justify">Ser reconhecido como o portal de esportes mais confiável e abrangente do Brasil, contribuindo para o desenvolvimento da cultura esportiva brasileira e conectando fãs de esportes de todas as modalidades. Queremos ser a primeira escolha dos brasileiros quando buscam notícias esportivas, resultados de jogos, análises de campeonatos e informações sobre o mundo dos esportes.</p>
 
                 <h2 class="text-2xl font-semibold mt-8 mb-4 text-neutral-800">Nossos Valores</h2>
                 <a id="values" title="Nossos Valores"></a>
@@ -29,17 +29,17 @@
                     <li class="mb-3"><strong>Transparência:</strong> Mantemos sempre a clareza em nossas informações e processos editoriais.</li>
                 </ul>
 
-                <h2 class="text-2xl font-semibold mt-8 mb-4 text-neutral-800">O que Cobrimos</h2>
-                <a id="coverage" title="O que Cobrimos"></a>
-                <p class="mb-4 text-neutral-700 text-justify">No <strong>Aqui Esportes</strong>, você encontra cobertura completa de:</p>
+                <h2 class="text-2xl font-semibold mt-8 mb-4 text-neutral-800">Cobertura Esportiva Completa</h2>
+                <a id="coverage" title="Cobertura de Esportes do Aqui Esportes"></a>
+                <p class="mb-4 text-neutral-700 text-justify">No <strong>Aqui Esportes</strong>, nosso portal de esportes oferece cobertura completa e especializada de todas as principais modalidades esportivas:</p>
                 <ul class="mb-6 pl-5 list-disc text-neutral-700 text-justify">
-                    <li class="mb-2"><strong>Futebol:</strong> Campeonatos nacionais e internacionais, Copa do Mundo, seleções e mercado da bola</li>
-                    <li class="mb-2"><strong>Basquete:</strong> NBA, NBB, seleção brasileira e competições internacionais</li>
-                    <li class="mb-2"><strong>Vôlei:</strong> Superliga, seleções brasileiras masculina e feminina, Liga das Nações</li>
-                    <li class="mb-2"><strong>Tênis:</strong> Grand Slams, ATP, WTA e tenistas brasileiros</li>
-                    <li class="mb-2"><strong>Fórmula 1:</strong> Corridas, bastidores e pilotos brasileiros</li>
-                    <li class="mb-2"><strong>Esportes Olímpicos:</strong> Atletismo, natação, ginástica e muito mais</li>
-                    <li class="mb-2"><strong>E-Sports:</strong> Competições de jogos eletrônicos e cenário competitivo</li>
+                    <li class="mb-2"><strong>Futebol:</strong> Brasileirão, Copa do Brasil, Libertadores, Copa do Mundo, seleções e mercado da bola com notícias esportivas atualizadas</li>
+                    <li class="mb-2"><strong>Basquete:</strong> NBA, NBB, seleção brasileira masculina e feminina, competições internacionais e análises esportivas</li>
+                    <li class="mb-2"><strong>Vôlei:</strong> Superliga, seleções brasileiras masculina e feminina, Liga das Nações e campeonatos mundiais</li>
+                    <li class="mb-2"><strong>Tênis:</strong> Grand Slams, ATP, WTA, tenistas brasileiros e torneios internacionais</li>
+                    <li class="mb-2"><strong>Fórmula 1:</strong> Corridas, classificações, bastidores e pilotos brasileiros no automobilismo</li>
+                    <li class="mb-2"><strong>Esportes Olímpicos:</strong> Atletismo, natação, ginástica artística e todas as modalidades olímpicas</li>
+                    <li class="mb-2"><strong>E-Sports:</strong> Competições de jogos eletrônicos, cenário competitivo brasileiro e mundial</li>
                 </ul>
 
                 <h2 class="text-2xl font-semibold mt-8 mb-4 text-neutral-800">Nossa Equipe</h2>
@@ -109,15 +109,39 @@
 import { useHead } from '@unhead/vue';
 
 useHead({
-    title: 'Sobre nós - Aqui Esportes',
+    title: 'Sobre o Aqui Esportes - Portal de Notícias Esportivas | História e Missão',
     meta: [
         {
             name: 'description',
-            content: 'Conheça o Aqui Esportes, nossa missão, valores e equipe dedicada a trazer as melhores notícias esportivas.'
+            content: 'Conheça o Aqui Esportes, portal de esportes referência no Brasil. Nossa história, missão, valores e equipe dedicada a trazer as melhores notícias esportivas, análises e cobertura completa do mundo dos esportes.'
         },
         {
             name: 'keywords',
-            content: 'Aqui Esportes, sobre nós, missão, história, equipe, valores, esportes'
+            content: 'Aqui Esportes, portal esportes, sobre nós, missão esportiva, história portal esportes, equipe esportiva, valores esportes, notícias esportivas, cobertura esportiva, futebol, basquete, vôlei'
+        },
+        {
+            property: 'og:title',
+            content: 'Sobre o Aqui Esportes - Portal de Notícias Esportivas'
+        },
+        {
+            property: 'og:description',
+            content: 'Conheça nossa história, missão e valores. O Aqui Esportes é o portal de esportes mais confiável do Brasil para notícias esportivas.'
+        },
+        {
+            property: 'og:type',
+            content: 'website'
+        },
+        {
+            name: 'twitter:title',
+            content: 'Sobre o Aqui Esportes - Portal de Esportes'
+        },
+        {
+            name: 'twitter:description',
+            content: 'Portal de esportes referência no Brasil. Conheça nossa história e missão no mundo dos esportes.'
+        },
+        {
+            name: 'robots',
+            content: 'index, follow'
         }
     ]
 })
