@@ -42,7 +42,6 @@ const SENSITIVE_KEYS = [
     // Twilio settings
     "blog.twilioAuthToken",
     // Analytics and verification
-    "blog.googleAnalyticsId",
     "blog.adminEmail",
     "blog.cloudflareToken",
     "blog.cloudflareZoneId",
